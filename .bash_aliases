@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 #Navigation
 alias ..="cd.."
 alias ...="cd../.."
@@ -19,7 +17,6 @@ alias mg='git merge '
 alias mgao='git checkout --ours .'
 alias mgat='git checkout --theirs .'
 alias d='git br -D '
-alias do='git push --delete origin '
 alias g='git'
 alias h='git log --pretty="format:%C(yellow)%h %C(blue)%ad %C(reset)%s%C(red)%d %C(green)%an%C(reset), %C(cyan)%ar" --date=short --graph --all'
 alias p='git push '
@@ -43,4 +40,4 @@ alias tree='git log --oneline --decorate --all --graph'
 alias lg1="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ad)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all --date=format:'%d-%m-%Y %H:%M:%S'"
 alias lg2="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
 alias lg3="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''%C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all"
-alias tags= log --tags --simplify-by-decoration --pretty='format:%ci %d'
+
